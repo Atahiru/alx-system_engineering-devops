@@ -1,4 +1,2 @@
 #!/bin/bash
-cp "$file" "$parent_directory/$(basename "$file")"
-
-    echo "Copied $file to $parent_directory"
+cp -rua *.html ../
